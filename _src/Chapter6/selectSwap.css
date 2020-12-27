@@ -1,0 +1,49 @@
+/* General SelectSwap style */
+div.SelectSwap div.Selector p {
+	margin: 0;
+}
+		
+/* Vertical SelectSwap style */
+div.SelectSwap_vertical div.Controls {
+	width: 24em;
+	text-align: center;
+	margin: 1em 0 0 0;
+}
+
+div.SelectSwap_vertical div.Controls input {
+	width: 30px;
+	height: 30px;
+}
+
+div.SelectSwap_vertical div.Selector select {
+	width: 28em;
+	height: 10em;
+}
+
+
+/* Horizontal SelectSwap style */	
+
+div.SelectSwap_horizontal div.Controls input {
+	width: 35px;
+	height: 25px;
+}
+
+div.SelectSwap_horizontal div.Selector select {
+	width: 10em;
+	height: 10em;
+}
+
+div.SelectSwap_horizontal div.Selector, div.SelectSwap_horizontal div.Controls {
+	float: left;
+}
+
+div.SelectSwap_horizontal div.Controls {
+	margin: 2em 1em;
+	vertical-align:middle;
+}
+
+/* No JS SelectSwap style */				
+select.SelectSwap {
+	width: 15em;
+	height: 15em;
+}

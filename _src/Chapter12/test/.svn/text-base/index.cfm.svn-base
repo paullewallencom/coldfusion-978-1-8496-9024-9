@@ -1,0 +1,11 @@
+<cfoutput>
+#now()#
+<hr>
+<hr>
+#_getServerRootDirectory()#
+<hr>
+#_getSiteRootPath()#
+<hr>
+#_getSlash()#
+<hr>
+</cfoutput>

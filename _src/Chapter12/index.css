@@ -1,0 +1,25 @@
+
+.next, .prev {     
+	/* absolute positioning relative to the overlay */     
+	position:absolute;     
+	top:40%;      
+
+	/* upcoming CSS3 rounded border feature */     
+	-moz-border-radius:5px;     
+	-webkit-border-radius:5px; 
+}  
+
+/* progress indicator (animated gif). should be initially hidden */ 
+.progress {     
+	position:absolute;     
+	top:45%;     
+	left:50%;     
+	display:none; 
+}  
+
+/* active thumbnail is raised on top of the mask using the z-index property */ 
+#thumbs a.active img {
+	outline:1px solid #000;
+	z-index:9999;
+	position:relative;
+}
